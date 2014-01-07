@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		// Disable button
 		buttonElement.setAttribute('disabled', 'disabled');
+		buttonElement.innerHTML = 'Rolling Dice';
 
 		// Add a random delay to give the impression that a real dice is being rolled
 		setTimeout(function(){
@@ -26,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 			// Enable button
 			buttonElement.removeAttribute('disabled');
+			buttonElement.innerHTML = 'Roll Again';
 
 		}, (Math.random() * 300) + 200);
 
