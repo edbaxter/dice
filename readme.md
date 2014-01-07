@@ -4,7 +4,7 @@ We were at the pub, having just setup monopoly, there was no dice, that's fine w
 
 So here we have [justafuckingdice.com][justafuckingdice]. A simple JS based dice!
 
-## In case you were wondering, yes, I won the game of monopoly ;)
+### In case you were wondering, yes, I won the game of monopoly ;)
 
 Created by [Joel Vardy][joelvardy].
 
