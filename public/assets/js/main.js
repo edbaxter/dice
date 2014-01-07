@@ -7,7 +7,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// Update HTML
 	var rollDice = function() {
-		document.querySelector('h1 span.number').innerHTML = roll();
+
+		var numberElement = document.querySelector('h1 span.number');
+
+		// Remove the current value
+		numberElement.innerHTML = '.';
+
+		// Add a random delay to give the impression that a real dice is being rolled
+		setTimeout(function(){
+			numberElement.innerHTML = roll();
+		}, (Math.random() * 300) + 200);
+
 	}
 
 	// Roll the dice on page load
