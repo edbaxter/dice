@@ -37,6 +37,10 @@ button.roll {
 	outline: none;
 	width: 10em;
 }
+button.roll[disabled] {
+	background: #999;
+	cursor: auto;
+}
 
 p {
 	font-size: 1em;
