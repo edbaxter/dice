@@ -10,18 +10,20 @@ html {
 	background: white;
 	color: black;
 	font: 100%/1.5em Helvetica, Arial, sans-serif;
+	padding: 0 3em;
 }
 
 h1 {
 	font-size: 2.5em;
-	margin-top: 4em;
+	margin-top: 2em;
 	line-height: 1.5em;
 	text-align: center;
 	text-shadow: #333 0px 1px 0px;
 }
 	h1 span {
-		color: orange;
-		font-size: 1.25em;
+		display: block;
+		font-size: 4em;
+		margin-top: .1em;
 	}
 
 button.roll {

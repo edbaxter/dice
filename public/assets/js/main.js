@@ -23,7 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		setTimeout(function(){
 
 			// Roll dice
-			numberElement.innerHTML = roll();
+			// numberElement.innerHTML = roll();
+			var result = roll() - 1;
+
+			numberElement.innerHTML = '&#x268' + result  + ';';
 
 			// Enable button
 			buttonElement.removeAttribute('disabled');
